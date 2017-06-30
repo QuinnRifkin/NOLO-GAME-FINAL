@@ -19,6 +19,10 @@
 		8F2BC4081F057AC9006E62CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F2BC4061F057AC9006E62CC /* LaunchScreen.storyboard */; };
 		8F2BC4131F057AC9006E62CC /* DrowsyDrivingFinalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2BC4121F057AC9006E62CC /* DrowsyDrivingFinalTests.swift */; };
 		8F2BC41E1F057AC9006E62CC /* DrowsyDrivingFinalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2BC41D1F057AC9006E62CC /* DrowsyDrivingFinalUITests.swift */; };
+		8F2BC42E1F058E1A006E62CC /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2BC42D1F058E1A006E62CC /* StartViewController.swift */; };
+		8F2BC4301F058EE5006E62CC /* SparkEmitter.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8F2BC42F1F058EE5006E62CC /* SparkEmitter.sks */; };
+		8F2BC4321F059751006E62CC /* StartScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8F2BC4311F059751006E62CC /* StartScene.sks */; };
+		8F2BC4341F067E54006E62CC /* StartScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2BC4331F067E54006E62CC /* StartScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +61,10 @@
 		8F2BC4191F057AC9006E62CC /* DrowsyDrivingFinalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrowsyDrivingFinalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F2BC41D1F057AC9006E62CC /* DrowsyDrivingFinalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrowsyDrivingFinalUITests.swift; sourceTree = "<group>"; };
 		8F2BC41F1F057AC9006E62CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F2BC42D1F058E1A006E62CC /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		8F2BC42F1F058EE5006E62CC /* SparkEmitter.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SparkEmitter.sks; sourceTree = "<group>"; };
+		8F2BC4311F059751006E62CC /* StartScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = StartScene.sks; sourceTree = "<group>"; };
+		8F2BC4331F067E54006E62CC /* StartScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,10 +122,14 @@
 				8F2BC3FF1F057AC9006E62CC /* GameViewController.swift */,
 				8F2BC4011F057AC9006E62CC /* Main.storyboard */,
 				8F2BC4041F057AC9006E62CC /* Assets.xcassets */,
+				8F2BC42F1F058EE5006E62CC /* SparkEmitter.sks */,
 				8F2BC4061F057AC9006E62CC /* LaunchScreen.storyboard */,
 				8F2BC4091F057AC9006E62CC /* Info.plist */,
 				1F2A9F001F0582D9001304D1 /* WelcomeViewController.swift */,
 				1F2A9F011F0582D9001304D1 /* WelcomeViewController.xib */,
+				8F2BC42D1F058E1A006E62CC /* StartViewController.swift */,
+				8F2BC4311F059751006E62CC /* StartScene.sks */,
+				8F2BC4331F067E54006E62CC /* StartScene.swift */,
 			);
 			path = DrowsyDrivingFinal;
 			sourceTree = "<group>";
@@ -248,10 +260,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F2BC4321F059751006E62CC /* StartScene.sks in Resources */,
 				8F2BC4031F057AC9006E62CC /* Main.storyboard in Resources */,
 				8F2BC3FA1F057AC9006E62CC /* GameScene.sks in Resources */,
 				8F2BC4051F057AC9006E62CC /* Assets.xcassets in Resources */,
 				8F2BC4081F057AC9006E62CC /* LaunchScreen.storyboard in Resources */,
+				8F2BC4301F058EE5006E62CC /* SparkEmitter.sks in Resources */,
 				8F2BC3FC1F057AC9006E62CC /* Actions.sks in Resources */,
 				1F2A9F031F0582D9001304D1 /* WelcomeViewController.xib in Resources */,
 			);
@@ -279,8 +293,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F2BC3FE1F057AC9006E62CC /* GameScene.swift in Sources */,
+
 				1F2A9F021F0582D9001304D1 /* WelcomeViewController.swift in Sources */,
+				8F2BC42E1F058E1A006E62CC /* StartViewController.swift in Sources */,
 				8F2BC4001F057AC9006E62CC /* GameViewController.swift in Sources */,
+				8F2BC4341F067E54006E62CC /* StartScene.swift in Sources */,
 				8F2BC3F81F057AC9006E62CC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
