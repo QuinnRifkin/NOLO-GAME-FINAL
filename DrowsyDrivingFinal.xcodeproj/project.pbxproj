@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F2A9F021F0582D9001304D1 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2A9F001F0582D9001304D1 /* WelcomeViewController.swift */; };
+		1F2A9F031F0582D9001304D1 /* WelcomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F2A9F011F0582D9001304D1 /* WelcomeViewController.xib */; };
 		8F2BC3F81F057AC9006E62CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2BC3F71F057AC9006E62CC /* AppDelegate.swift */; };
 		8F2BC3FA1F057AC9006E62CC /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8F2BC3F91F057AC9006E62CC /* GameScene.sks */; };
 		8F2BC3FC1F057AC9006E62CC /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8F2BC3FB1F057AC9006E62CC /* Actions.sks */; };
@@ -41,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F2A9F001F0582D9001304D1 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		1F2A9F011F0582D9001304D1 /* WelcomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WelcomeViewController.xib; sourceTree = "<group>"; };
 		8F2BC3F41F057AC9006E62CC /* DrowsyDrivingFinal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrowsyDrivingFinal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F2BC3F71F057AC9006E62CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8F2BC3F91F057AC9006E62CC /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -121,6 +125,8 @@
 				8F2BC42F1F058EE5006E62CC /* SparkEmitter.sks */,
 				8F2BC4061F057AC9006E62CC /* LaunchScreen.storyboard */,
 				8F2BC4091F057AC9006E62CC /* Info.plist */,
+				1F2A9F001F0582D9001304D1 /* WelcomeViewController.swift */,
+				1F2A9F011F0582D9001304D1 /* WelcomeViewController.xib */,
 				8F2BC42D1F058E1A006E62CC /* StartViewController.swift */,
 				8F2BC4311F059751006E62CC /* StartScene.sks */,
 				8F2BC4331F067E54006E62CC /* StartScene.swift */,
@@ -261,6 +267,7 @@
 				8F2BC4081F057AC9006E62CC /* LaunchScreen.storyboard in Resources */,
 				8F2BC4301F058EE5006E62CC /* SparkEmitter.sks in Resources */,
 				8F2BC3FC1F057AC9006E62CC /* Actions.sks in Resources */,
+				1F2A9F031F0582D9001304D1 /* WelcomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +293,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F2BC3FE1F057AC9006E62CC /* GameScene.swift in Sources */,
+
+				1F2A9F021F0582D9001304D1 /* WelcomeViewController.swift in Sources */,
 				8F2BC42E1F058E1A006E62CC /* StartViewController.swift in Sources */,
 				8F2BC4001F057AC9006E62CC /* GameViewController.swift in Sources */,
 				8F2BC4341F067E54006E62CC /* StartScene.swift in Sources */,
@@ -540,6 +549,7 @@
 				8F2BC4241F057AC9006E62CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8F2BC4251F057AC9006E62CC /* Build configuration list for PBXNativeTarget "DrowsyDrivingFinalTests" */ = {
 			isa = XCConfigurationList;
@@ -548,6 +558,7 @@
 				8F2BC4271F057AC9006E62CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8F2BC4281F057AC9006E62CC /* Build configuration list for PBXNativeTarget "DrowsyDrivingFinalUITests" */ = {
 			isa = XCConfigurationList;
@@ -556,6 +567,7 @@
 				8F2BC42A1F057AC9006E62CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
